@@ -63,6 +63,12 @@ main .profile-bottom{
     
 }
 
+.profile-top button{
+    background-color: white;
+    border: none;
+    padding:5px;
+}
+
 .profile-bottom img{
     position: absolute;
     margin-top: -45px;
