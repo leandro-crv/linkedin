@@ -1,0 +1,10 @@
+header space between
+imagens no font awesome
+search com position absolute
+com 1 div só
+
+main
+background img
+hover no button
+
+footer com 1 nav e 1 ul mas com várias li
