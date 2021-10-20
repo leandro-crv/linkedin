@@ -2,4 +2,51 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: #E5E5E5;
+}
+
+.container{
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+    height: 1826px;
+}
+
+.container-flex section{
+    background-color: white;
+}
+
+/*--MAIN --*/
+main{
+    width: 70%;
+    margin: 40px;
+    background-color: coral;
+}
+
+main section{
+    margin-top: 20px;
+}
+
+main section h2{
+    text-transform: uppercase;
+}
+
+/*--ASIDE --*/
+
+aside{
+    width: 30%;
+    margin: 40px 0;
+    background-color: aqua;
+}
+
+aside section{
+    margin-top: 20px;
+}
+
+aside h3{
+    text-transform: uppercase;
 }
