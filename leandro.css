@@ -1,0 +1,54 @@
+/*--projects --*/
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    vertical-align: center;
+    justify-content: space-between;
+    
+}
+
+.projects .row:first-child{
+    display: flex;
+}
+.projects .row:first-child small{
+    color: #747474;
+    font-size: 12px;
+    margin-left: 15px;
+    align-self: center;
+    
+}
+.projects .row:nth-child(2){
+    margin-top:25px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+
+.projects{
+    padding: 30px;
+}
+
+.projects h4{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom:8px;
+}
+
+.projects-card small{
+    font-size: 12px;
+    color:#181818;
+    margin-top:8px;
+}
+
+.projects .row:last-child{
+    margin-top:25px;
+}
+.projects .row:last-child span{
+    font-weight: bold;
+    color: #0275B1;
+    cursor: pointer;
+    font-size:12px;
+}

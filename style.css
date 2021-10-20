@@ -6,23 +6,25 @@ body {
 }
 
 .container{
-   max-width: 1200px;
+   max-width: 1180px;
    margin: 0 auto;
 }
 
 .container-flex{
     display: flex;
+    justify-content: space-between;
     /* justify-content: space-between;
     height: 1826px; */
 }
 
 .container-flex section{
     background-color: white;
+    padding: 30px;
 }
 
 /*--MAIN --*/
 main{
-    width: 70%;
+    width: 810;
     margin: 40px;
     background-color: coral;
 }
@@ -32,11 +34,13 @@ main section{
 }
 
 main section h2{
-    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 /*-- profile --*/
 main .profile{
+    padding: 0px;
     height: 360px;
     background-image: url('/img/image-background.png');
     background-repeat: no-repeat;
@@ -117,8 +121,8 @@ main .profile-bottom{
 /*--ASIDE --*/
 
 aside{
-    width: 30%;
-    margin: 40px 0;
+    width: 290px;
+    /* margin: 40px 0; */
     background-color: aqua;
 }
 
