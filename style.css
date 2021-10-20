@@ -12,8 +12,8 @@ body {
 
 .container-flex{
     display: flex;
-    justify-content: space-between;
-    height: 1826px;
+    /* justify-content: space-between;
+    height: 1826px; */
 }
 
 .container-flex section{
@@ -35,6 +35,79 @@ main section h2{
     text-transform: uppercase;
 }
 
+/*-- profile --*/
+main .profile{
+    height: 360px;
+    background-image: url('/img/image-background.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    
+}
+
+main .profile-top{
+    height: 180px;
+}
+
+main .profile-bottom{
+    background-color: white;
+    
+}
+
+.profile-top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+    
+}
+
+.profile-bottom img{
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 25px;
+}
+
+.profile-text{
+    margin-left: 220px;
+    margin-right: 25px;
+}
+
+.profile-bottom .row{
+    margin-bottom: 15px;
+}
+
+.profile-bottom .row:first-child{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.profile-bottom button[name="contact"]{
+    text-align: center;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    width: 170px;
+    height: 32px;
+    background: #0275B1;
+    color: white;
+    border: 1px solid #0275B1;
+    box-sizing: border-box;
+    border-radius: 4px; 
+}
+
+.profile-bottom button[name="connections"]{
+    text-align: center;
+    padding-left: 10px;
+    width: 170px;
+    height: 32px;
+    background: white;
+    color: #0275B1;
+    border: 1px solid #0275B1;
+    box-sizing: border-box;
+    border-radius: 4px; 
+}
 /*--ASIDE --*/
 
 aside{
