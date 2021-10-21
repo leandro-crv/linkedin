@@ -1,3 +1,5 @@
-# linkedin
+# Trabalho final - VemSer HTML e CSS
 
-## Trabalho final - VemSer HTML e CSS
+## Linkedin
+
+Versão final na branch master
