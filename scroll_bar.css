@@ -1,0 +1,12 @@
+::-webkit-scrollbar {
+    width: 7px;
+    background: transparent;
+    /* mexe na scroll como um todo*/
+}
+
+::-webkit-scrollbar-thumb {
+    background: #0275B1;
+    border-radius: 15px;
+    /* mexe com a parte movel da scroll*/
+}
+
