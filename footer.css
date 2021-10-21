@@ -81,11 +81,11 @@ footer select{
     margin-top: 8px ;
 }
 
-.fa-question-circle{
+footer .fa-question-circle{
     color:white;
     
 }
 
-.fa-cog{
+footer .fa-cog{
     color: #0275B1;
 }

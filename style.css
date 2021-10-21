@@ -6,15 +6,13 @@ body {
 }
 
 .container{
-   max-width: 1180px;
+   max-width: 1200px;
    margin: 0 auto;
 }
 
 .container-flex{
     display: flex;
-    justify-content: space-between;
-    /* justify-content: space-between;
-    height: 1826px; */
+
 }
 
 .container-flex section{
@@ -24,14 +22,16 @@ body {
 
 /*--MAIN --*/
 main{
-    width: 810;
+    width: 70%;
     margin: 40px;
     background-color: coral;
 }
 
 main section{
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
+
 
 main section h2{
     font-weight: bold;
@@ -50,6 +50,10 @@ main .profile{
 
 main .profile-top{
     height: 180px;
+}
+
+.profile .fa-location-arrow{
+    color: #0275B1;
 }
 
 main .profile-bottom{
@@ -121,8 +125,8 @@ main .profile-bottom{
 /*--ASIDE --*/
 
 aside{
-    width: 290px;
-    /* margin: 40px 0; */
+    width: 28%;
+     margin-left:2%;
     background-color: aqua;
 }
 
@@ -132,4 +136,97 @@ aside section{
 
 aside h3{
     text-transform: uppercase;
+}
+
+/*--FOOTER --*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F7F9FB;
+    max-height: 215px; 
+    padding: 30px 130px; 
+}
+
+footer h4{
+    margin-bottom: 30px;
+}
+
+footer nav{
+    width: 40%;
+    display: block;
+   
+}
+
+footer nav ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 86px;
+}
+
+footer nav ul li{
+    margin-bottom: 5px;
+}
+footer nav a{
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+}
+
+footer a:hover{
+    text-decoration: underline;
+
+}
+
+footer .fast-access{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+footer button[name="questions"]{
+    text-align: left;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    width: 170px;
+    height: 32px;
+    background: #0275B1;
+    color: white;
+    border: 1px solid #0275B1;
+    box-sizing: border-box;
+    border-radius: 4px; 
+}
+
+footer button[name="settings"]{
+    text-align: left;
+    padding-left: 10px;
+    width: 170px;
+    height: 32px;
+    background: white;
+    color: #0275B1;
+    border: 1px solid #0275B1;
+    box-sizing: border-box;
+    border-radius: 4px; 
+}
+
+footer select{
+    width: 270px;
+    height: 32px;
+    padding-left: 10px;
+    font-weight: bolder;
+}
+
+.fast-access i{
+    position: absolute;
+    margin-left: -25px;
+    margin-top: 8px ;
+}
+
+footer .fa-question-circle{
+    color:white;
+    
+}
+
+footer .fa-cog{
+    color: #0275B1;
 }
