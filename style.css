@@ -532,7 +532,9 @@ footer .fast-access{
 }
 
 footer button[name="questions"]{
-    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding-left: 10px;
     margin-bottom: 10px;
     width: 170px;
@@ -542,13 +544,18 @@ footer button[name="questions"]{
     border: 1px solid #0275B1;
     box-sizing: border-box;
     border-radius: 4px;
-    gap: 10px;
+    
 }
 
-
+footer button[name="questions"] span{
+  
+   margin-right: 50px
+}
 
 footer button[name="settings"]{
-    text-align: left;
+    text-align: flex;
+    justify-content: space-between;
+    align-items: center;
     padding-left: 10px;
     width: 170px;
     height: 32px;
@@ -558,6 +565,11 @@ footer button[name="settings"]{
     box-sizing: border-box;
     border-radius: 4px; 
 }
+
+footer button[name="settings"] span{
+    
+    margin-right: 50px
+ }
 
 
 footer select{
