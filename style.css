@@ -509,6 +509,21 @@ aside h3{
     flex-direction: column;
 }
 
+.courses .icone-video{
+    position: absolute;
+    padding: 5px;
+    margin-top: -45px;
+    margin-left: 28px;
+    background: linear-gradient(180deg, #0077B5 0%, #0E6795 100%);
+    border-radius: 2px;
+    width: 18px;
+    height: 18px;
+}
+
+.fa-play{
+    color:white;
+    width: 14px;
+}
 
 /*--FOOTER --*/
 footer{
