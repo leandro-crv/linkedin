@@ -123,3 +123,242 @@ aside section{
 aside h3{
     text-transform: uppercase;
 }
+
+
+/* botões */
+
+.buttons-main {
+    display: flex;
+    background-color: #E5E5E5;
+    margin-bottom: -25px;
+    cursor: pointer;
+}
+
+.button-profile {
+    border: solid 1px #E7E7E7;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 40px;
+}
+
+.button-profile:hover {
+    border: solid 1px #066DA2;
+    background-color: #066DA2;
+    color: white;
+}
+
+.button-activity {
+    border: solid 1px #E7E7E7;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 40px;
+}
+
+.button-articles {
+    border: solid 1px #E7E7E7;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 40px;
+}
+
+/* about */
+
+.about {
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    height: 200px;
+}
+
+.about div p{
+    padding: 60px 0 15px 0;
+    font-weight: bold
+}
+
+.about p {
+    padding-bottom: 20px;
+}
+
+.about span {
+    font-weight: bold;
+    color: #0275B1;
+    cursor: pointer;
+    width: 77px;
+}
+
+/* skills */
+
+.skills-endoresments {
+    padding: 30px;
+    height: 220px;
+    border-radius: 4px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px 0;
+}
+
+.skills {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 17px;
+    color: #181818;
+}
+
+.content-pai {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-filho {
+    width: 190px;
+    border: solid 1px #F4F4F4;
+    border-radius: 6px;
+    display: flex;
+    padding: 10px;;
+    flex-direction: column;
+}
+
+.filho p:last-child{
+    color: #0275B1;
+}
+
+.content-filho img {
+    padding-top: 10px;
+    width: 100px;
+}
+
+.filho {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-endoresments span {
+    font-weight: bold;
+    color: #0275B1;
+    cursor: pointer;  
+}
+
+ /* education */
+
+.education {
+    height: 195px;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.education-div {
+    display: flex;
+    gap: 16px;
+}
+
+.education-div img {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+.flex-education {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.flex-education span {
+    font-weight: bold;
+}
+
+.education h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+/* aside dashboard */
+
+.dashboard {
+    height: 360px;
+    border-radius: 4px;
+    padding: 25px;
+}
+
+.top-dashboard {
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #F4F4F4;
+}
+
+.top-dashboard span {
+    color: #0275B1;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.cont-dashboard {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.cont-dashboard p:first-child{
+    font-size: 52px;
+    color: #0275B1;
+}
+
+/* visitors */
+
+.visitors {
+    height: 427px;
+    border-radius: 4px;
+    padding: 25px;
+}
+
+.top-visitors {
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #F4F4F4;
+}
+
+.top-visitors span {
+    color: #0275B1;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.global-visitors {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.cont-visitors {
+    display: flex;
+    padding: 15px 0;
+    gap: 15px;
+    align-items: center;
+}
+
+.cont-visitors p:first-child{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.cont-visitors p:last-child{
+    font-size: 14px;
+}
