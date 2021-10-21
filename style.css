@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+* {
+    font-size: 14px;
+}
+
 /* -- HEADER -- */
 header {
     display: flex;
@@ -104,7 +108,7 @@ nav {
 
 .p1 {
     cursor: pointer;
-   font-weight: bold; 
+    font-weight: bold; 
 }
 
 .p2 {
@@ -144,12 +148,12 @@ nav {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #F7F9FB;
+    background-color: #F7F9FA;
 }
 
 .container{
-   max-width: 1200px;
-   margin: 0 auto;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .container-flex{
@@ -187,10 +191,11 @@ main .profile{
     background-image: url('/img/image-background.png');
     background-repeat: no-repeat;
     width: 100%;
-    
+    border-radius: 4px;
 }
 
 main .profile-top{
+
     height: 180px;
 }
 
@@ -215,6 +220,9 @@ main .profile-bottom{
 }
 
 .profile-top button{
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;;
     background-color: white;
     border: none;
     padding:5px;
@@ -224,6 +232,10 @@ main .profile-bottom{
     position: absolute;
     margin-top: -45px;
     margin-left: 25px;
+}
+
+.profile-bottom img:hover {
+    cursor: pointer;
 }
 
 .profile-text{
@@ -273,7 +285,7 @@ main .profile-bottom{
     flex-direction: column;
     vertical-align: center;
     justify-content: space-between;
-    
+    border-radius: 4px;
 }
 
 .projects .row:first-child{
@@ -309,6 +321,11 @@ main .profile-bottom{
     width: 230px;
 }
 
+.projects-card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 .projects-card small{
     font-size: 12px;
     color:#181818;
@@ -328,6 +345,7 @@ main .profile-bottom{
 /*--EXPERIENCE --*/
 
 .experience{
+    border-radius: 4px;
     display: flex;
     /* height: 345px; */
     flex-direction: column;
@@ -373,7 +391,7 @@ main .profile-bottom{
     margin-bottom: 10px;
 }
 .experience h4{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     margin-bottom: 10px;
 }
@@ -405,7 +423,6 @@ main .profile-bottom{
 }
 
 .experience-text p{
-    font-size:12px;
     line-height: 15px;
 }
 
@@ -418,7 +435,7 @@ main .profile-bottom{
 
 aside{
     width: 28%;
-     margin-left:2%;
+    margin-left:2%;
     
 }
 
@@ -433,14 +450,18 @@ aside h3{
 
 /* -- aside cursos -- */
 
+.courses {
+    border-radius: 4px;
+}
+
 .title-courses{
-    padding-bottom: 25px;
+    padding-bottom: 10px;
     border-bottom: 1px solid #F4F4F4;
 }
 
 .title-courses h3{
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .courses h2{
@@ -465,11 +486,16 @@ aside h3{
     margin-top:25px;
 }
 
+.course-text h2:hover, .row-courses .row img:hover {
+    text-decoration: underline;
+    color: #0275B1;
+    cursor: pointer;
+}
+
 .course-text small{
     font-size: 12px;
     line-height: 15px;
-    padding-top:10px;
-   
+    padding-top:10px; 
 }
 
 .courses .row{
@@ -494,6 +520,15 @@ footer{
     border-top: solid 1px #E7E7E7; 
 }
 
+.logo-linkedin {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-linkedin img:hover {
+    cursor: pointer;
+}
+
 footer h4{
     margin-bottom: 30px;
 }
@@ -501,7 +536,6 @@ footer h4{
 footer nav{
     width: 40%;
     display: block;
-   
 }
 
 footer nav ul{
@@ -527,36 +561,37 @@ footer a:hover{
 
 footer .fast-access{
     display: flex;
+    gap: 10px;
     flex-direction: column;
     
 }
 
 footer button[name="questions"]{
-    text-align: left;
-    padding-left: 10px;
-    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
     width: 170px;
     height: 32px;
     background: #0275B1;
     color: white;
     border: 1px solid #0275B1;
-    box-sizing: border-box;
     border-radius: 4px;
-    gap: 10px;
 }
 
 
 
 footer button[name="settings"]{
-    text-align: left;
-    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
     width: 170px;
     height: 32px;
     background: white;
     color: #0275B1;
     border: 1px solid #0275B1;
-    box-sizing: border-box;
-    border-radius: 4px; 
+    border-radius: 4px;
 }
 
 
@@ -586,7 +621,8 @@ footer .fa-cog{
 .buttons-main {
     display: flex;
     background-color: #E5E5E5;
-    margin-bottom: -25px;
+    margin-bottom: -1px;
+    padding: 0 !important;
     cursor: pointer;
 }
 
@@ -616,6 +652,12 @@ footer .fa-cog{
     height: 40px;
 }
 
+.button-activity:hover {
+    border: solid 1px #066DA2;
+    background-color: #066DA2;
+    color: white;
+}
+
 .button-articles {
     border: solid 1px #E7E7E7;
     border-radius: 5px 5px 0 0;
@@ -626,10 +668,17 @@ footer .fa-cog{
     height: 40px;
 }
 
+.button-articles:hover {
+    border: solid 1px #066DA2;
+    background-color: #066DA2;
+    color: white;
+}
+
 /* about */
 
 .about {
     border-radius: 4px;
+    border-top: solid 1px #E7E7E7;
     display: flex;
     flex-direction: column;
     padding-left: 30px;
@@ -686,6 +735,11 @@ footer .fa-cog{
     flex-direction: column;
 }
 
+.content-filho:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 .filho p:last-child{
     color: #0275B1;
 }
@@ -721,8 +775,8 @@ footer .fa-cog{
 }
 
 .education-div img {
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
     margin: 10px;
 }
 
@@ -734,6 +788,7 @@ footer .fa-cog{
 
 .flex-education span {
     font-weight: bold;
+    font-size: 16px;
 }
 
 .education h2 {
@@ -810,6 +865,10 @@ footer .fa-cog{
     align-items: center;
 }
 
+.cont-visitors img{
+    cursor: pointer;
+}
+
 .cont-visitors p:first-child{
     font-weight: bold;
     margin-bottom: 5px;
@@ -817,4 +876,8 @@ footer .fa-cog{
 
 .cont-visitors p:last-child{
     font-size: 14px;
+}
+
+button {
+    cursor: pointer;
 }
