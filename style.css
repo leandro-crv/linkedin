@@ -23,7 +23,6 @@ body {
 /*--MAIN --*/
 main{
     width: 70%;
-    margin: 40px;
     background-color: coral;
 }
 
@@ -122,6 +121,155 @@ main .profile-bottom{
     box-sizing: border-box;
     border-radius: 4px; 
 }
+
+/*--projects --*/
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    vertical-align: center;
+    justify-content: space-between;
+    
+}
+
+.projects .row:first-child{
+    display: flex;
+}
+.projects .row:first-child small{
+    color: #747474;
+    font-size: 12px;
+    margin-left: 15px;
+    align-self: center;
+    
+}
+.projects .row:nth-child(2){
+    margin-top:25px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+
+.projects{
+    padding: 30px;
+}
+
+.projects h4{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom:8px;
+}
+
+.projects-card img{
+    width: 230px;
+}
+
+.projects-card small{
+    font-size: 12px;
+    color:#181818;
+    margin-top:8px;
+}
+
+.projects .row:last-child{
+    margin-top:25px;
+}
+.projects .row:last-child span{
+    font-weight: bold;
+    color: #0275B1;
+    cursor: pointer;
+    font-size:12px;
+}
+
+/*--EXPERIENCE --*/
+
+.experience{
+    display: flex;
+    /* height: 345px; */
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.imagem-laranja{
+    width: 54px;
+    height: 54px;
+    background: linear-gradient(215.49deg, #FFB75E 5.4%, #ED8F03 93.45%);
+    border-radius: 27px;
+}
+
+.fa-globe{
+    color:white;
+    width: 26.67px;
+    height: 26.67px;
+    margin:13.7px;
+}
+
+.experience h2{
+    margin-bottom: 25px;
+}
+
+.experience .row{
+    display: flex;
+    align-items: start;
+}
+
+.experience .row{
+    margin-bottom:25px;
+}
+
+.experience .row:last-child{
+    
+    margin-bottom:0px;
+}
+.experience .experience-text {
+    margin-left:15px;
+}
+
+.experience-text div{
+    margin-bottom: 10px;
+}
+.experience h4{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.experience-text small{
+    font-size:12px;
+}
+
+.experience-text span{
+    font-size: 12px;
+        
+}
+
+.experience-text div span:first-child{
+    color:#181818;
+    line-height: 15px;
+    margin-right:10px;
+}
+
+.experience-text div small{
+    color:#181818;
+    line-height: 15px;
+    margin-right:10px;
+}
+
+.experience-text div span{
+    font-weight: bold;
+    color: #0275B1;
+}
+
+.experience-text p{
+    font-size:12px;
+    line-height: 15px;
+}
+
+.experience-text div:nth-child(2){
+    margin-bottom:5px;
+}
+
+
 /*--ASIDE --*/
 
 aside{
@@ -137,6 +285,60 @@ aside section{
 aside h3{
     text-transform: uppercase;
 }
+
+
+*-- aside cursos --*/ 
+
+.title-courses{
+    padding-bottom: 25px;
+    border-bottom: 1px solid #F4F4F4;
+}
+
+.title-courses h3{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.courses h2{
+    font-size: 16px;
+    font-weight: bold;
+}
+.courses .row{
+    margin-top:20px;
+}
+
+
+.courses:last-child span{
+    font-weight: bold;
+    color: #0275B1;
+    cursor: pointer;
+    font-size:12px;
+    padding-top:25px;
+    
+}
+
+.courses .ver-mais{
+    margin-top:25px;
+}
+
+.course-text small{
+    font-size: 12px;
+    line-height: 15px;
+    padding-top:10px;
+   
+}
+
+.courses .row{
+    display: flex;
+    
+}
+
+.course-text{
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
 
 /*--FOOTER --*/
 footer{
